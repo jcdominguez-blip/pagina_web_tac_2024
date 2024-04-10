@@ -64,7 +64,7 @@ header .container {
   border: 1px solid #e7ba61; /* Borde */
   border-radius: 5px; /* Bordes redondeados */
   padding: 10px 20px; /* Espaciado interno */
-  font-size: 15px; /* Tamaño de fuente */
+  font-size: 18px; /* Tamaño de fuente */
   transition: background-color 0.3s ease; /* Transición suave */
   margin-left: 0%;
   
