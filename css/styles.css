@@ -1,0 +1,103 @@
+  /*VariablesTipografía*/ 
+
+  
+ body{
+  font-family: "Montserrat", sans-serif;
+ }
+  
+/*Tamaño tipografía*/
+  h1{
+    
+    font-size: 600;
+    font-weight: 800; /*bold*/ 
+  }
+  
+  .titulo-section{
+    
+    font-weight: bold;
+    color: #45658d;
+    text-decoration: none;
+  }
+  
+
+    /* Estilo navbar  */
+    .navbar-custom {
+      background-color: #242c4f;
+      /*background-color:transparent;*/
+      padding-bottom: 50%;
+     
+    }
+
+    .fxhover {
+      a:hover {
+        color: rgb(255, 238, 0);
+      }
+    }
+  
+/*Hero*/
+header {
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Color de fondo oscuro con opacidad */
+}
+
+header video {
+  position: relative;
+  z-index: -1; /* Asegúrate de que el video esté detrás del texto */
+  width: 100%;
+}
+
+header .container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+
+
+ /* Estilos personalizados para el botón */
+ .custom-button-header {
+  background-color: #e7ba61; /* Color de fondo */
+  color: #fff; /* Color del texto */
+  border: 1px solid #e7ba61; /* Borde */
+  border-radius: 5px; /* Bordes redondeados */
+  padding: 10px 20px; /* Espaciado interno */
+  font-size: 18px; /* Tamaño de fuente */
+  transition: background-color 0.3s ease; /* Transición suave */
+  margin-left: 6%;
+  
+ 
+}
+
+.custom-button-header:hover {
+  background-color: #776032; /* Cambio de color al pasar el ratón */
+  border-color: #776032; /* Cambio de color del borde al pasar el ratón */ 
+  
+}
+
+
+/*navnuevo*/
+
+.navbar-custom .nav-link::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 4px; /* Ajusta el grosor de la barra */  
+  background-color: transparent; /* Color de la barra */
+  transition: width 0.3s; /* Transición suave */
+}
+
+.navbar-custom .nav-link:hover::after {
+  width: 100%; /* Ancho de la barra */
+  background-color: #e7ba61; /* Cambio de color al pasar el ratón */
+  border-radius: 10px;
+}
