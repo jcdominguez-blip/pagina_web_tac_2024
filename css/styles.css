@@ -1,9 +1,11 @@
   /*VariablesTipografía*/ 
-
+  *{
+    font-family: "Montserrat", sans-serif;
+    
+      
+  }
   
- body{
-  font-family: "Montserrat", sans-serif;
- }
+ 
   
 /*Tamaño tipografía*/
   h1{
@@ -20,23 +22,12 @@
   }
   
 
-    /* Estilo navbar  */
-    .navbar-custom {
-      background-color: #242c4f;
-      /*background-color:transparent;*/
-      padding-bottom: 50%;
-     
-    }
-
-    .fxhover {
-      a:hover {
-        color: rgb(255, 238, 0);
-      }
-    }
+   
   
 /*Hero*/
 header {
   position: relative;
+  background: url("https://cdn.pixabay.com/video/2023/10/02/183271-870457542_large.mp4")
 }
 
 .overlay {
@@ -101,3 +92,18 @@ header .container {
   background-color: #e7ba61; /* Cambio de color al pasar el ratón */
   border-radius: 10px;
 }
+
+ /* Estilo navbar  */
+ .navbar-custom {
+  background-color: #242c4f;
+  /*background-color:transparent;*/
+  padding-bottom: 50%;
+ 
+}
+
+.fxhover {
+  a:hover {
+    color: rgb(255, 238, 0);
+  }
+}
+
